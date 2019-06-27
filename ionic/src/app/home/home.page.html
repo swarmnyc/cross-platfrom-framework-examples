@@ -1,0 +1,7 @@
+<ion-content>
+  <div class="ion-padding" [style.background-color]="backgroundColor">
+    <div>Enter You Name</div>
+    <div style="margin: 8px 0px"><input type="text" [(ngModel)]="name"></div>
+    <div *ngIf="name">Hello {{name}}!!</div>
+  </div>
+</ion-content>
