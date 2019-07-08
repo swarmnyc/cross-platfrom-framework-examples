@@ -21,10 +21,10 @@
     <NuGetPackageImportStamp>
     </NuGetPackageImportStamp>
     <AndroidKeyStore>true</AndroidKeyStore>
-    <AndroidSigningKeyStore>\\192.168.203.177\Works\Projects\incident-code\incident-code-app\android\keystores\prerelease.jks</AndroidSigningKeyStore>
-    <AndroidSigningStorePass>incidentcode</AndroidSigningStorePass>
-    <AndroidSigningKeyAlias>incidentcode</AndroidSigningKeyAlias>
-    <AndroidSigningKeyPass>incidentcode</AndroidSigningKeyPass>
+    <AndroidSigningKeyStore>../../../release.jks</AndroidSigningKeyStore>
+    <AndroidSigningStorePass>abc123</AndroidSigningStorePass>
+    <AndroidSigningKeyAlias>test</AndroidSigningKeyAlias>
+    <AndroidSigningKeyPass>abc123</AndroidSigningKeyPass>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
